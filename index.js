@@ -28,9 +28,11 @@ class BoardMember {
   }
 }
 
-class BoardMember {
+class Ceo extends BoardMember {
   constructor(name, homeState, training) {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
   }
+  hireEmployee(){}
+}
