@@ -30,12 +30,10 @@ class BoardMember {
 
 
 class Ceo extends BoardMember {
-  }
   sayHi() {
     super.sayHi()
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
-    
-  }
+    }
   hireEmployee(){
     return "Welcome aboard!";
   }
