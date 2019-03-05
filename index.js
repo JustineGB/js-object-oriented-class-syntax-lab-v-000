@@ -30,10 +30,6 @@ class BoardMember {
 
 
 class Ceo extends BoardMember {
-  constructor(name, homeState, training) {
-    this.name = name;
-    this.homeState = homeState;
-    this.training = training;
   }
   sayHi() {
     super.sayHi()
